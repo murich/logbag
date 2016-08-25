@@ -1,0 +1,22 @@
+{
+  "name": "murich/logbag",
+  "description": "Organize your log entries",
+  "keywords": [
+    "logging"
+  ],
+  "homepage": "https://github.com/murich/logbag",
+  "authors": [
+    {
+      "name": "Andrey Murashkin",
+      "email": "andrey@phpteam.pro"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Murich\\Logbag\\": "src/"
+    }
+  }
+}
