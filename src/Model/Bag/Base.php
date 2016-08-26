@@ -34,6 +34,7 @@ abstract class Base {
     {
         $values = $this->_getValues();
         $values['logbag'] = static::class;
+        $values['ray'] = $this->ray->getRay();
 
         return json_encode($values);
     }
