@@ -3,7 +3,7 @@
 namespace Murich\Logbag\Model\Bag;
 
 use Murich\Logbag\Model\Ray;
-use SixZeroClub\SharedPHPLibrary\Kohana\Arr;
+use Murich\Logbag\Arr;
 
 abstract class Base {
 
